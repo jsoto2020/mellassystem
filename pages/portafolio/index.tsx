@@ -30,7 +30,7 @@ const Imagelist: FC<Props>  = ({ imagenes}) => {
 
 
 <Grid   container spacing={{ xs: 2, md: 3 }} columns={{ xs: 8, sm: 8, md: 12, lg:12 }} sx={{ mt:50 }}>
-      <Grid item xs={8} sm={8} md={12} lg={12} sx={{ mt:15 }}>
+      <Grid item xs={8} sm={6} md={4} sx={{ mt:15 }}>
         <ImageList
         //    sx={{ width: 1/1 }}
             variant="quilted"

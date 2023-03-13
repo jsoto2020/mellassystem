@@ -33,21 +33,21 @@ const ProductPage:NextPage<Props> = ({ product }) => {
 
   return (
     <SystemLayout title={product[0].nombre  } pageDescription={ product[0].nombre }>
-     <Box display='flex' flexDirection='column' sx={{ mt:15, xs: 8, lg:12 }} >
+     <Box display='flex' flexDirection='column' sx={{ mt:15, xs: 8, sm: 4}} justifyContent='center'>
 
       {/* titulos */}
       <Typography variant='h1' component='h1' color="#00d87d">{ product[0].nombre }</Typography>
 
       {/* Descripción */}
     <Box sx={{ mb:5 }}> 
-    <Typography variant='subtitle2' color="#6161ff">Descripción:</Typography>
+ {/*    <Typography variant='subtitle2' color="#6161ff">Descripción:</Typography> */}
     <Typography variant='body2' color="#6161ff">{ product[0].descripcion }</Typography>
  </Box>  
 
 </Box>
-    <Grid container    spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12, lg: 12 }}> 
+    <Grid container    spacing={{ xs: 2, md: 4 }} columns={{ xs: 2, sm: 8, md: 12, lg:12 }}> 
  
-        <Grid item xs={8}  >
+        <Grid item xs={8} sm={8} md={12} >
           <DocumentoSlide 
             images={ product }
           />
