@@ -16,10 +16,10 @@ const Navbar = () => {
   return (
     <AppBar  >
         <Toolbar>
-            <Box sx={{ mr: 5 }} >
+            <Box sx={{ mr: 1 }} >
             <NextLink href="/" passHref legacyBehavior >
                <Link>
-                    <img src="/logo.png" width='200' height='220' />
+                    <img src="/logo.png" width='140' height='200' />
                 </Link>
             </NextLink>
             </Box>
@@ -27,7 +27,7 @@ const Navbar = () => {
             <Box>
             <NextLink href="/" passHref legacyBehavior >
                <Link
-                       sx={{ mr:3 }}
+                       sx={{ mr:2 }}
                        fontSize={20} 
                        component="button"
                
@@ -37,7 +37,7 @@ const Navbar = () => {
             </NextLink>
    
                     <Link 
-                            sx={{ mr:3 }}
+                            sx={{ mr:2 }}
                             fontSize={20} 
                             component="button"
                        
