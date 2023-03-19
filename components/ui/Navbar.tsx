@@ -16,12 +16,13 @@ const Navbar = () => {
   return (
     <AppBar  >
         <Toolbar>
+            <Box sx={{ mr: 5 }} >
             <NextLink href="/" passHref legacyBehavior >
                <Link>
                     <img src="/logo.png" width='200' height='220' />
                 </Link>
             </NextLink>
-
+            </Box>
             <Box flex={ 1 }/>
             <Box>
             <NextLink href="/" passHref legacyBehavior >

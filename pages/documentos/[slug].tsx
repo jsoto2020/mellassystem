@@ -42,7 +42,7 @@ const ProductPage:NextPage<Props> = ({ product }) => {
       </Box >
     <Grid container   spacing={2}  > 
  
-        <Grid  xs={12} md={8} >
+        <Grid item  xs={12} md={8} >
           <DocumentoSlide 
             images={ product }
           />
@@ -68,7 +68,7 @@ export const getStaticPaths: GetStaticPaths = async (ctx) => {
   
   const documentoslug: string[] = portfolio.map( item => item.slug );
 
-  console.log('slug: ',documentoslug)
+  
   
   return {
     paths: documentoslug.map( slug => ({
