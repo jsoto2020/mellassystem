@@ -25,6 +25,7 @@ export const DocumentotCard: FC<Props> = ( { imagen,nombre,slug } ) => {
       >
           <Card>
               <NextLink href={`/documentos/${ slug }`} passHref prefetch={ false }>
+         
                 <Link>
 
                     <CardActionArea>
@@ -35,7 +36,7 @@ export const DocumentotCard: FC<Props> = ( { imagen,nombre,slug } ) => {
                             image={imagen }
                             alt={ nombre }
                             onLoad={ () => setIsImageLoaded(true) }
-                          //  sx={{  width: 380 }}
+                        //    sx={{  width: 380 }}
                         />
 
                     </CardActionArea>

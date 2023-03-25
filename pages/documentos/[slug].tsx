@@ -10,6 +10,7 @@ import { portfolio } from '../../database/'
 import { documentoD } from '../../components/interfaces/documentoData';
 import { imagen } from '@/components/interfaces/imagen';
 import { DocumentoSlide } from '@/components/layouts/DocumentoSlide';
+import Statica from '@/components/ui/Statica';
 
 
 
@@ -33,7 +34,7 @@ const ProductPage:NextPage<Props> = ({ product }) => {
 
   return (
     <SystemLayout title={product[0].nombre  } pageDescription={ product[0].nombre }>
-     <Box display='flex' flexDirection='column' sx={{ mt:15, xs: 8, sm: 4, mb:5}} justifyContent='center'>
+     <Box display='flex' flexDirection='column' sx={{ mt:15, xs: 8, sm: 4}} justifyContent='center'>
 
       {/* titulos */}
       <Typography variant='h1' component='h1' color="#00d87d">{ product[0].nombre }</Typography>
@@ -43,9 +44,15 @@ const ProductPage:NextPage<Props> = ({ product }) => {
     <Grid container   spacing={2}  > 
  
         <Grid item  xs={12} md={8} >
-          <DocumentoSlide 
+           {
+             product[0].rows != 10 ?
+            <DocumentoSlide 
             images={ product }
-          />
+          /> 
+           :
+           <Statica />
+           }
+          
         </Grid> 
       {/* Descripción */}
       <Box sx={{ mb:5 }}> 

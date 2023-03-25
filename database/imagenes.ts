@@ -4,13 +4,13 @@ export const portfolio = [
     {nombre: 'Bandas Musicales', alt:"OZ mutantes y The Mirros Conspiracy", slug:"albun_01", descripcion: "",
       imagenes:'/galeria/img_01.jpg',rows: 0,cols: 0,
       relacionados: [
-        {title: 'Oz mutantes',rslug: 'albun_01',rimg: '/documentos/albun/img_01.jpg',id:1,descripcion:'Rediseño de álbum Oz Mutantes, Banda con música brasileña. Representada con un diseño atrevido, psicodélico y experimental. El logo del albun, el concepto fue trabajado en conjunto con la diseñadora Fernanda Tamburini.'},
+        {title: 'Oz mutantes',rslug: 'albun_01',rimg: '/documentos/albun/img_01.png',id:1,descripcion:'Rediseño de álbum Oz Mutantes, Banda con música brasileña. Representada con un diseño atrevido, psicodélico y experimental. El logo del albun, el concepto fue trabajado en conjunto con la diseñadora Fernanda Tamburini.'},
         {title: 'The mirrors Conspiracy',rslug: 'albun_01',rimg: '/documentos/albun/img_02.png',id:2,descripcion:'Rediseño de álbum Oz Mutantes, Banda con música brasileña. Representada con un diseño atrevido, psicodélico y experimental. El logo del albun, el concepto fue trabajado en conjunto con la diseñadora Fernanda Tamburini.'},
         {title: 'Imagen 03',rslug: 'albun_01',rimg: '/documentos/albun/img_03.png',id:1,descripcion:'Rediseño de álbum “The mirrors Conspiracy” de la banda Thievery Corporation, tiene una variedad de música tranquila y electrónica igualmente representado con un diseño de estilo psicológico.'},
         {title: 'Imagen 04',rslug: 'albun_01',rimg: '/documentos/albun/img_04.png',id:1,descripcion:'Rediseño de álbum “The mirrors Conspiracy” de la banda Thievery Corporation, tiene una variedad de música tranquila y electrónica igualmente representado con un diseño de estilo psicológico.'},
         {title: 'Imagen 05',rslug: 'albun_01',rimg: '/documentos/albun/img_05.png',id:1,descripcion:'Rediseño de álbum “The mirrors Conspiracy” de la banda Thievery Corporation, tiene una variedad de música tranquila y electrónica igualmente representado con un diseño de estilo psicológico.'},
         {title: 'Imagen 06',rslug: 'albun_01',rimg: '/documentos/albun/img_06.jpg',id:1,descripcion:'Rediseño de álbum “The mirrors Conspiracy” de la banda Thievery Corporation, tiene una variedad de música tranquila y electrónica igualmente representado con un diseño de estilo psicológico.'},
-        {title: 'Imagen 08',rslug: 'albun_01',rimg: '/documentos/albun/img_07.png',id:1,descripcion:'Rediseño de álbum “The mirrors Conspiracy” de la banda Thievery Corporation, tiene una variedad de música tranquila y electrónica igualmente representado con un diseño de estilo psicológico.'},
+       
         
         
         
@@ -22,7 +22,7 @@ export const portfolio = [
     {nombre: 'Portadas', alt:"portadas", slug:"portadas_01", descripcion: "Portadas de serie de libros Los 7 pecados capitales inspiradas en la ópera escrita por Berlot Bertch y Kurt Weil. Trata la ambición de lucro y sigue la historia de Ana I y Ana II, dos hermanas quienes tienen el objetivo de conseguir una casita en Luisiana.",
     imagenes:
           '/galeria/img_02.png',
-          rows: 0,
+          rows: 10,
           cols: 0,
           relacionados: [
                 {title: '',rslug:  'portadas_01', rimg: '/documentos/portadas/img_01.png',id:10,descripcion:''},
