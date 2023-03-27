@@ -1,11 +1,11 @@
 export interface imagen {
-
     
     nombre: string,
     alt: string,
     slug: string,
     descripcion: string,
     imagenes: string,
+    estatica: string,
     rows    : number,
     cols    : number,
     relacionados: Arelacionado[]

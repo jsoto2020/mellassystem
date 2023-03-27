@@ -27,6 +27,7 @@ const ProductPage:NextPage<Props> = ({ product }) => {
   
   } )
  
+  
  
  // console.log('data_rela: ',relacionados)
   
@@ -41,7 +42,7 @@ const ProductPage:NextPage<Props> = ({ product }) => {
 
 
       </Box >
-    <Grid container   spacing={2}  > 
+    <Grid container   spacing={2}  justifyContent='center' > 
  
         <Grid item  xs={12} md={8} >
            {
@@ -50,7 +51,7 @@ const ProductPage:NextPage<Props> = ({ product }) => {
             images={ product }
           /> 
            :
-           <Statica />
+           <Statica imagen={ product[0].estatica }/>
            }
           
         </Grid> 

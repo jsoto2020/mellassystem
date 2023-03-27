@@ -1,22 +1,25 @@
 
 import { Box, Card,  CardContent, CardMedia,  Typography } from '@mui/material'
+import { FC } from 'react'
 
 
-const Statica = () => {
+
+interface Props {
+   imagen: string
+}
+
+const Statica: FC<Props> = ({ imagen }) => {
   return (
     <Box   
-    sx={{
-        sm:'4'
-      }}
-
-            borderBottom={0} > 
+      borderRight={0}
+      borderBottom={0} > 
        
-            <Box sx={{ justifyContent: 'center' }}>
+           
             <Card >
                     <CardMedia 
                         component='img'
-                        
-                        image="/galeria/portada.png"
+                        image={ imagen }     
+                  //      image="/galeria/portada.png"
                  //       sx={{  xs:6 ,sm: 4, lg:12, p: 0, opacity: [0.9, 0.8, 0.7]}}
                         
                     />
@@ -25,7 +28,7 @@ const Statica = () => {
       </Card>
        
      
-        </Box> 
+        
     </Box>
   )
 }
