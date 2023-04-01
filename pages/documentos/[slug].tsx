@@ -41,7 +41,7 @@ const ProductPage:NextPage<Props> = ({ product }) => {
 
 
       </Box > */}
-    <Grid container   spacing={2}  justifyContent='center'  > 
+    <Grid container   spacing={2}  justifyContent='center' sx={{ mt:4 }} > 
  
         <Grid item  xs={12} md={8} >
            {
