@@ -44,7 +44,7 @@ const ProductPage:NextPage<Props> = ({ product }) => {
     <Grid container   spacing={2}  justifyContent='center'  > 
  
         <Grid item  xs={12} md={8} >
-         {/*   {
+           {
              product[0].rows != 10 ?
             <DocumentoSlide 
             images={ product }
@@ -53,8 +53,8 @@ const ProductPage:NextPage<Props> = ({ product }) => {
            :
            <Statica imagen={ product[0].estatica }/>
            }
- */}          
- <Statica imagen={ product[0].estatica }/>
+         
+ 
         </Grid> 
       {/* Descripción */}
       
