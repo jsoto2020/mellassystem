@@ -27,7 +27,7 @@ const Navbar = () => {
             <Box>
             <NextLink href="/" passHref legacyBehavior >
                <Link
-                       sx={{ mr:2 }}
+                       sx={{ mr:1 }}
                        fontSize={20} 
                        component="button"
                
@@ -37,7 +37,7 @@ const Navbar = () => {
             </NextLink>
    
                     <Link 
-                            sx={{ mr:2 }}
+                            sx={{ mr:1 }}
                             fontSize={20} 
                             component="button"
                        
