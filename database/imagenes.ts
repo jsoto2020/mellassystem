@@ -41,16 +41,16 @@ export const portfolio = [
         ]
         
         },
-    {nombre: 'Póster lilo y stitch', alt:"liloystich", slug:"lilo_01", descripcion: "Póster de la película “Lilo y Stitch” de Walt Disney. Se hizo uso del elemento del reproductor de discos en la película y su mensaje principal Ohana, is family , la textura de crayón que está muy presente en la película y sus colores tropicales.",
+    {nombre: 'Pósters', alt:"liloystich", slug:"lilo_01", descripcion: "Póster de la película “Lilo y Stitch” de Walt Disney. Se hizo uso del elemento del reproductor de discos en la película y su mensaje principal Ohana, is family , la textura de crayón que está muy presente en la película y sus colores tropicales.",
     imagenes:
           '/galeria/img_03.jpg',
           estatica: '/galeria/posters.png',
           rows: 10,
           cols: 0,
           relacionados: [
-            {title: 'Póster lilo y stitch',rslug:  'lilo_01', rimg: '/documentos/posters/img_01.png',id:10,descripcion:''},
-            {title: 'Póster lilo y stitch',rslug:  'lilo_01`', rimg: '/documentos/posters/img_02.png',id:11,descripcion:''},
-            {title: 'Póster lilo y stitch',rslug:  'lilo_01`', rimg: '/documentos/posters/img_03.jpg',id:12,descripcion:''},
+            {title: 'Póster',rslug:  'lilo_01', rimg: '/documentos/posters/img_01.png',id:10,descripcion:''},
+            {title: 'Póster',rslug:  'lilo_01`', rimg: '/documentos/posters/img_02.png',id:11,descripcion:''},
+            {title: 'Póster',rslug:  'lilo_01`', rimg: '/documentos/posters/img_03.jpg',id:12,descripcion:''},
                     
         
         ]
