@@ -19,7 +19,7 @@ const Navbar = () => {
             <Box sx={{ mr: 1 }} >
             <NextLink href="/" passHref legacyBehavior >
                <Link>
-                    <img src="/logo.png" width='140' height='200' />
+                    <img src="/logo.png" width='135' height='170' />
                 </Link>
             </NextLink>
             </Box>
@@ -28,7 +28,7 @@ const Navbar = () => {
             <NextLink href="/" passHref legacyBehavior >
                <Link
                        sx={{ mr:1 }}
-                       fontSize={20} 
+                       fontSize={17} 
                        component="button"
                
                >Home
@@ -38,7 +38,7 @@ const Navbar = () => {
    
                     <Link 
                             sx={{ mr:1 }}
-                            fontSize={20} 
+                            fontSize={17} 
                             component="button"
                        
                             onClick={() => portafoilio()}
@@ -51,7 +51,7 @@ const Navbar = () => {
                 <NextLink href="https://fulldetord.com" passHref legacyBehavior >
                     <Link 
                                   
-                    fontSize={20}
+                    fontSize={17}
                     component="button"
                     >Tienda
                     </Link>
